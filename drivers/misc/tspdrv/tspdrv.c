@@ -199,7 +199,7 @@ immersion_enable_show(struct device *dev, struct device_attribute *attr,   char 
 }
 
 static struct device_attribute immersion_device_attrs[] = {
-	__ATTR(vib_enable,  S_IRUGO | S_IWUSR, immersion_enable_show, immersion_enable_store),
+	__ATTR(enable,  S_IRUGO | S_IWUSR, immersion_enable_show, immersion_enable_store),
 };
 
 /* LGE_CHANGED_END 2012.11.11, sehwan.lee@lge.com */
